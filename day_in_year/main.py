@@ -6,6 +6,7 @@ class DayInYear:
         self.__check_year(year)
         self.__check_month(month)
         self.__check_day(day)
+        
         try:
             datetime(year,month,day)
         except:
